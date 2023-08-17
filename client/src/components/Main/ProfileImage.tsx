@@ -1,7 +1,12 @@
 import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
 
-// 자신이 원하는 프로필 이미지 링크로 설정해주세요.
+const ProfileImage: FunctionComponent = function () {
+  return <ProfileImageWrapper src={PROFILE_IMAGE_LINK} alt='Profile Image' />
+}
+
+export default ProfileImage
+
 const PROFILE_IMAGE_LINK =
   'https://avatars.githubusercontent.com/u/125176463?v=4'
 
@@ -16,9 +21,3 @@ const PROFILE_IMAGE_LINK =
     height: 80px;
   }
 `
-
-const ProfileImage: FunctionComponent = function () {
-  return <ProfileImageWrapper src={PROFILE_IMAGE_LINK} alt='Profile Image' />
-}
-
-export default ProfileImage
