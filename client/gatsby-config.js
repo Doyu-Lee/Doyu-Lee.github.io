@@ -3,9 +3,16 @@ module.exports = {
     title: `개발해도유`,
     description: `더 나은 사용자 경험을 위해 늘 고민하고 도전하는 프론트엔드 개발자입니다.`,
     author: `Seona`,
-    siteUrl: '',  
+    siteUrl: '',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: '',
+        stripQueryString: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-typescript',
       options: {
