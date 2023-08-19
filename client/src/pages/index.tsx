@@ -125,7 +125,7 @@ export const getPostList = graphql`
         }
       }
     }
-    file(name: { eq: "profile-image" }) {
+    file(name: { eq: "profile" }) {
       childImageSharp {
         gatsbyImageData(width: 120, height: 120)
       }
