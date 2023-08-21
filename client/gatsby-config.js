@@ -3,7 +3,7 @@ module.exports = {
     title: `개발해도유`,
     description: `더 나은 사용자 경험을 위해 늘 고민하고 도전하는 프론트엔드 개발자입니다.`,
     author: `Seona`,
-    siteUrl: 'https://my-website-link.com', // 임시
+    siteUrl: 'https://Doyu-Lee.github.io',
   },
   plugins: [
     {
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://my-website-link.com', // 임시
+        siteUrl: 'https://Doyu-Lee.github.io',
         stripQueryString: true,
       },
     },
